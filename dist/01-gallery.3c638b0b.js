@@ -142,7 +142,7 @@
       this[globalName] = mainExports;
     }
   }
-})({"bIIuG":[function(require,module,exports) {
+})({"lKDh8":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -575,7 +575,7 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"9de4I":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+/* global document */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _simplelightbox = require("simplelightbox");
 var _simplelightboxDefault = parcelHelpers.interopDefault(_simplelightbox);
 var _simpleLightboxMinCss = require("simplelightbox/dist/simple-lightbox.min.css");
@@ -603,7 +603,7 @@ new (0, _simplelightboxDefault.default)(".gallery a", {
     captionDelay: 250
 });
 
-},{"simplelightbox":"9ydBq","simplelightbox/dist/simple-lightbox.min.css":"kaxSc","./gallery-items":"e9dXm","@parcel/transformer-js/src/esmodule-helpers.js":"9LeWV"}],"9ydBq":[function(require,module,exports) {
+},{"simplelightbox":"9ydBq","simplelightbox/dist/simple-lightbox.min.css":"kaxSc","./gallery-items":"e9dXm","@parcel/transformer-js/src/esmodule-helpers.js":"jHuTT"}],"9ydBq":[function(require,module,exports) {
 /*!
 	By André Rinas, www.andrerinas.de
 	Documentation, www.simplelightbox.com
@@ -2167,7 +2167,7 @@ const galleryItems = [
     }
 ];
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"9LeWV"}],"9LeWV":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jHuTT"}],"jHuTT":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -2197,6 +2197,6 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}]},["bIIuG","9de4I"], "9de4I", "parcelRequire5a88")
+},{}]},["lKDh8","9de4I"], "9de4I", "parcelRequire5a88")
 
 //# sourceMappingURL=01-gallery.3c638b0b.js.map

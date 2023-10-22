@@ -142,7 +142,7 @@
       this[globalName] = mainExports;
     }
   }
-})({"03cNL":[function(require,module,exports) {
+})({"d9SJq":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -591,7 +591,7 @@ if (savedTime) player.setCurrentTime(savedTime).catch((error)=>{
     error.name;
 });
 
-},{"@vimeo/player":"kmmUG","lodash.throttle":"bGJVT","@parcel/transformer-js/src/esmodule-helpers.js":"9LeWV"}],"kmmUG":[function(require,module,exports) {
+},{"@vimeo/player":"kmmUG","lodash.throttle":"bGJVT","@parcel/transformer-js/src/esmodule-helpers.js":"jHuTT"}],"kmmUG":[function(require,module,exports) {
 /*! @vimeo/player v2.20.1 | (c) 2023 Vimeo | MIT License | https://github.com/vimeo/player.js */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var global = arguments[3];
@@ -3039,7 +3039,7 @@ if (!isNode) {
 }
 exports.default = Player;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"9LeWV"}],"9LeWV":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"jHuTT"}],"jHuTT":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -3410,6 +3410,6 @@ var FUNC_ERROR_TEXT = "Expected a function";
 }
 module.exports = throttle;
 
-},{}]},["03cNL","2KCbX"], "2KCbX", "parcelRequire5a88")
+},{}]},["d9SJq","2KCbX"], "2KCbX", "parcelRequire5a88")
 
 //# sourceMappingURL=02-video.cc7354fd.js.map

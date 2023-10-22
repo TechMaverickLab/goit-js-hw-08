@@ -1,11 +1,13 @@
-import SimpleLightbox from "simplelightbox";
-import "simplelightbox/dist/simple-lightbox.min.css";
+/* global document */
+
+import SimpleLightbox from 'simplelightbox';
+import 'simplelightbox/dist/simple-lightbox.min.css';
 
 import { galleryItems } from './gallery-items';
 
 function createGalleryMarkup(items) {
-  return items.map(({ preview, original, description }) => {
-    return `
+	return items.map(({ preview, original, description }) => {
+		return `
       <li class="gallery__item">
         <a class="gallery__link" href="${original}">
           <img
@@ -16,7 +18,7 @@ function createGalleryMarkup(items) {
         </a>
       </li>
     `;
-  }).join('');
+	}).join('');
 }
 
 const galleryMarkup = createGalleryMarkup(galleryItems);
